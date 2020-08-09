@@ -3,10 +3,10 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title> Google advanced search</title>
-  <a href="file:///Users/sakshi/PycharmProjects/Cs50_web_programming_project0/project_0/google_simple_search.html">
-    <img src="file:///Users/sakshi/PycharmProjects/Cs50_web_programming_project0/google_logo.png" width="150px"> </a>
+  <a href="google_simple_search.html">
+    <img src="google_logo.png" width="150px"> </a>
 
-  <img src="file:///Users/sakshi/PycharmProjects/Cs50_web_programming_project0/adv_search_tile.png">
+  <img src="adv_search_tile.png">
 
     <style>
         div{ margin: 10px;
@@ -22,6 +22,7 @@
         .container{ background-color: cream; margin-right: 500px;}
         .col{font-size: 15px;}
         .heading{ margin-right:500px}
+        @media (max-width: 530px;) {a{margin-left:75%px;}}
     </style>
 
 </head>
@@ -45,7 +46,7 @@
     <div class="col">
 
     </div>
-    <div  style=" font-size: 20px; " class="col">
+    <div  style=" font-size: 20px; " id="to_hide" class="col">
       To do this to search:
     </div>
   </div>
@@ -118,17 +119,21 @@
 </div>
 
 
+<div class="container">
+  <div class="row">
+  </div>
+  <div class="row">
+    <div class="col">
 
+    </div>
+    <div class="col">
 
-<div>
-<!--    <input type="submit" name="=q" value="Google">-->
-
+    </div>
+    <div class="col">
+      <input style="margin-left: 100px; background-color: royalblue; color: white; border-radius: 5px;" type="submit" value="Advanced search">
+    </div>
+  </div>
 </div>
-<div>
-     <input style="margin-left: 1000px; background-color: royalblue; color: white; border-radius: 2px;" type="submit" value="Advanced search">
-</div>
-
-
 
 </form>
 
