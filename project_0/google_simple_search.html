@@ -1,65 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head class="screen_style">
-
-
-
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
            crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style-1.css">
     <title> Google Search </title>
 
-    <a href="google_image_search.html"> Google Image Search </a>
-    <a href="google_adv_search.html"> Google Advanced Search </a>
+    <a href="google_image_search.html">Images </a>
+    <a href="google_adv_search.html"> Advanced Search</a>
 
 <style>
-    .search_box{
-            width: 550px;
-            height: 45px;
-            margin-top:100px;
-            margin: center;
-            box-shadow: 0inset 0 0 10px
-            box-sizing: border-box;
-            border: 2px solid #FFFFFF;
-            font-size: 16px;
-            background-color: white;
-            border-radius: 40px;
-            input-align: center ;
-            font-size: 15px;
-            padding: 10px;
-            background: white;
-            mini-width: 2px;
-            mini-height: 2px;
-            box-shadow: 0px 0px 8px #C0C0C0;
-            padding-left: 70px;
-            background-image:url(search_icon.png);
-            background-repeat: no-repeat;
-            background-size: 25px;
-            background-position:25px 9px;
-            margin-left:600px; margin-top: -30px;
-         }
-         a { font-size: 20px ;font-family:sans-serif; color: black; margin-left:85%;}
-         button{ margin-left:41%; margin-top:30px;}
+     a{ font-size: 15x ;font-family:sans-serif; color: black; margin-left:85%; display:inline;}
 
-         .screen_style{ flex: flex-wrap;}
-
-
-
+         button{margin-top:30px; }
 </style>
 </head>
+<center>
 <body class="screen_style">
-<form action="https://www.google.com/search?">
+<form action=" https://www.google.com/search" >
 <div class="text-center">
-    <img src="google_logo.png" class="rounded" alt="google images" width="20%" style="margin-top:110px;">
+    <img src="google_logo.png" class="rounded" alt="google images" width="272px" style="margin-top:100px;margin-bottom:-50px;">
 </div >
 <div>
     <input type="text"  name="q"   class="search_box" placeholder="Search Google or type URL">
 </div>
 <div>
-    <button type="submit" class="btn btn-light"> Google Search </button>
-    <button type="submit" class="btn btn-light" style="margin-left:52%; margin-top:-65px;"> I'm feeling lucky </button>
+    <button type="submit" class="btn btn-light" style="margin-right:150px;"> Google Search </button>
+</div>
+<div>
+    <button type="submit" name="btnI" class="btn btn-light" style="margin-left:200px; margin-top:-65px;"> I'm Feeling Lucky </button>
 </div>
 </form>
+</center>
 </body>
 </html>
 

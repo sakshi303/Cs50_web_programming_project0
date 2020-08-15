@@ -5,6 +5,7 @@
 
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
            crossorigin="anonymous">
+    <link rel="stylesheet" href="style-1.css">
 
     <a href="google_simple_search.html">
     <img src="google_logo.png" width="150px"> </a>
@@ -12,46 +13,25 @@
     <title> Google Image Search</title>
 
 <style>
-    .search_box{
-            width: 550px;
-            height: 45px;
-            margin-top:100px;
-            margin: center;
-            box-shadow: 0inset 0 0 10px
-            box-sizing: border-box;
-            border: 2px solid #FFFFFF;
-            font-size: 16px;
-            background-color: white;
-            border-radius: 40px;
-            input-align: center ;
-            font-size: 15px;
-            padding: 10px;
-            background: white;
-            mini-width: 2px;
-            mini-height: 2px;
-            box-shadow: 0px 0px 8px #C0C0C0;
-            padding-left: 70px;
-            background-image:url(search_icon.png);
-            background-repeat: no-repeat;
-            background-size: 30px;
-            background-position:20px 8px;
-            margin-left:600px; margin-top: 1%
-         }
-    a { font-size: 50px ;font-family:sans-serif; color: black; margin-left:89%;}
-
+            a { font-size: 50px ;font-family:sans-serif; color: black; margin-left:89%;}
+            .btn btn-light{ margin-right: 50px;}
 
 </style>
 </head>
 <body>
-<form action="https://www.google.com/webhp?">
+<center>
+<form action="https://images.google.com/images">
 <div class="text-center">
-    <img src="Google_img_logo.png" class="rounded" alt="google images" width="15%" style="margin-top:165px;">
+    <img src="Google_img_logo.png" class="rounded" alt="google images" width="272px" style="margin-top:165px; margin-right: 50px;">
 </div >
 <div>
-    <input type="text"  name="tbm%3Disch%26q%3D="   class="search_box" placeholder="Search Images" >
-    <input type="submit" value="Search image">
+    <input type="text"  name="q"   class="search_box" placeholder="Search Images" >
+</div>
+<div style="margin-top: -45px; margin-left: 475px;">
+    <button type="button" class="btn btn-link"> <img src="search_blue_icon.webp" width="20px"> </button>
 </div>
 </form>
+</center>
 </body>
 </html>
 
